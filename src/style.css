@@ -4,30 +4,109 @@
   box-sizing: border-box;
 }
 
+:root {
+  --light-gray: rgb(225, 225, 225);
+  --dark-gray: rgb(80, 80, 80);
+}
+
 body {
   font-family: "Poppins", sans-serif;
-  background-color: rgb(238, 249, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+
+#restaurantName {
+  width: 120px;
+  margin: 20px;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 nav {
-  padding-top: 20px;
+  margin: 20px;
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-button {
-  font-size: 1.5rem;
-  padding: 20px;
-  border: 0;
-  border-radius: 20px 20px 0 0;
+#reservation {
+  width: 120px;
+  margin: 20px;
+  padding: 10px;
+  background-color: black;
+  border-radius: 3px;
+  color: white;
+  font-size: 0.7rem;
+  text-align: center;
 }
+
+#reservation:hover {
+  background-color: var(--dark-gray);
+}
+
+button {
+  padding: 10px;
+  border: 0;
+  border-radius: 3px;
+  background: none;
+}
+
+button:hover {
+  background-color: var(--light-gray);
+  text-decoration: underline;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+#pageMain {
+  margin: 20px;
+  padding: 250px;
+  width: 100%;
+  height: 70vh;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('./main_photo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pageMain h1 {
+  color: white;
+  text-align: center;
+}
+
+#pageSub {
+  margin: 30px;
+  width: 70%;
+  color: var(--dark-gray);
+  text-align: center;
+}
+
 
 /* sticky footer */
 footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  background-color: white;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -35,7 +114,7 @@ footer {
 }
 
 footer a {
-  color: rgb(60, 60, 60)
+  color: var(--dark-gray);
 }
 
 footer a:hover {
