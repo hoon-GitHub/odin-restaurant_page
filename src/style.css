@@ -89,8 +89,9 @@ button:hover {
 }
 
 #pageMain h1 {
-  color: white;
+  color: var(--light-gray);
   text-align: center;
+  font-size: 3rem;
 }
 
 #pageSub {
@@ -106,7 +107,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: white;
+  background-color: var(--light-gray);
   padding: 10px;
   display: flex;
   justify-content: center;
