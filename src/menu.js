@@ -9,37 +9,37 @@ export function renderMenu() {
   const menu1 = document.createElement('div');
   menu1.classList.add('menuItem');
   const menu1Title = document.createElement('h2');
-  menu1Title.innerText = "Menu1"
+  menu1Title.innerText = "Menu1 to be added"
   menu1.appendChild(menu1Title);
 
   const menu2 = document.createElement('div');
   menu2.classList.add('menuItem');
   const menu2Title = document.createElement('h2');
-  menu2Title.innerText = "Menu2"
+  menu2Title.innerText = "Menu2 to be added"
   menu2.appendChild(menu2Title);
   
   const menu3 = document.createElement('div');
   menu3.classList.add('menuItem');
   const menu3Title = document.createElement('h2');
-  menu3Title.innerText = "Menu3"
+  menu3Title.innerText = "Menu3 to be added"
   menu3.appendChild(menu3Title);
   
   const menu4 = document.createElement('div');
   menu4.classList.add('menuItem');
   const menu4Title = document.createElement('h2');
-  menu4Title.innerText = "Menu4"
+  menu4Title.innerText = "Menu4 to be added"
   menu4.appendChild(menu4Title);
   
   const menu5 = document.createElement('div');
   menu5.classList.add('menuItem');
   const menu5Title = document.createElement('h2');
-  menu5Title.innerText = "Menu5"
+  menu5Title.innerText = "Menu5 to be added"
   menu5.appendChild(menu5Title);
   
   const menu6 = document.createElement('div');
   menu6.classList.add('menuItem');
   const menu6Title = document.createElement('h2');
-  menu6Title.innerText = "Menu6"
+  menu6Title.innerText = "Menu6 to be added"
   menu6.appendChild(menu6Title);
   
   mainDiv.appendChild(menu1);

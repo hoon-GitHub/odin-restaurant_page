@@ -104,7 +104,7 @@ button:hover {
 }
 
 #menuDiv {
-  margin: 30px;
+  margin: 10px;
   margin-bottom: 80px;
   width: 100%;
   display: grid;
@@ -113,7 +113,7 @@ button:hover {
 }
 
 .menuItem {
-  height: 300px;
+  height: 200px;
   margin: 20px;
   text-align: center;
   font-weight: bold;
@@ -122,6 +122,7 @@ button:hover {
   align-items: center;
   border: 2px solid var(--dark-gray);
   border-radius: 10px;
+  background-color: var(--light-gray);
 }
 
 .menuItem h2 {
@@ -129,9 +130,27 @@ button:hover {
 }
 
 #aboutDiv {
-  margin: 30px;
+  margin: 20px;
   width: 100%;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#aboutDiv h2 {
+  text-align: center
+}
+
+#aboutDiv div {
+  margin: 20px;
+  width: 70%;
+  height: 500px;
+  border: 1px solid var(--dark-gray);
+}
+
+#aboutDiv p {
+
 }
 
 /* sticky footer */
