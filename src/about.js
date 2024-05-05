@@ -19,7 +19,7 @@ export function renderAbout() {
   const mapImage = new Image();
   mapImage.src = Map;
   mapImage.alt = "Sample map image, not actual"
-  mapImage.setAttribute('width', '100%');
+  mapImage.setAttribute('width', '60%');
   map.appendChild(mapImage);
 
   const para = document.createElement('p');

@@ -107,10 +107,12 @@ button:hover {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  justify-content: space-around;
+  justify-items: center;
 }
 
 .menuItem {
+  width: 400px;
   height: 300px;
   margin: 20px;
   text-align: center;
@@ -124,7 +126,7 @@ button:hover {
 .menuItem img {
   width: 100%;
   height: 90%;
-  border-radius: 10px;
+  border-radius: 5px;
   filter: brightness(80%)
 }
 
@@ -143,8 +145,7 @@ button:hover {
 
 #aboutDiv div {
   margin: 20px;
-  width: 70%;
-  height: 500px;
+  text-align: center;
 }
 
 #aboutDiv p {
