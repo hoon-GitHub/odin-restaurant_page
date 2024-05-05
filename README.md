@@ -2,7 +2,7 @@
 ## The Odin Project: Restaurant Page
 Project assignment page: [Project: Restaurant Page](https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page)\
 Project started on: **5/3/2024**\
-Project finished on: **TBD**
+Project finished on: **5/5/2024**
 
 ### Webpack
 - Project instructed to use **Webpack** to bundle/package the files/modules.
@@ -23,4 +23,5 @@ Project finished on: **TBD**
   - [`home.js`, `menu.js`, `about.js`] that contain functions (exported) for rendering each page.
 
 ### Post-Project Remarks
-- 
+- Learned JS modules and webpack
+- Learned how to create a page-less (one-page), JS driven dynamic website
