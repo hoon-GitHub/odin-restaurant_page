@@ -1,5 +1,9 @@
 export function renderHome() {
   
+  // add underline to indicate active page
+  const homeBtn = document.getElementById('home');
+  homeBtn.style.textDecoration = 'underline';
+
   // content div
   const content = document.getElementById('content');
 
