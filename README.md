@@ -15,11 +15,12 @@ Project finished on: **TBD**
   - installing *style-loader* and *css-loader* `modules` (`npm install --save-dev style-loader css-loader`),
   - adding the modules to `webpack.config.js`,
   - and finally adding `node_modules/` and `dist/` to `.gitignore` file so they do not get pushed to GitHub.
-- `"build": "webpack"` was added to `package.json`, under `"scripts":`, to be able to use `npm run build` instead of `npx webpack`.
-- `"watch": "webpack --watch"` was also added to use watch mode (`npm run watch`).
+  - `"build": "webpack"` was added to `package.json`, under `"scripts":`, to be able to use `npm run build` instead of `npx webpack`.
+  - `"watch": "webpack --watch"` was also added to use watch mode (`npm run watch`).
+- Project also specified to use JavaScript to dynamically render main contents and to use modules.
+  - Skeleton HTML's main `div#content` is initially empty.
+  - JavaScript will handle rendering and tab switching - `index.js` handles page-switching logic, by importing
+  - [`home.js`, `menu.js`, `about.js`] that contain functions (exported) for rendering each page.
 
-### Takeaway
-- 
-
-### Consideration
+### Post-Project Remarks
 - 
