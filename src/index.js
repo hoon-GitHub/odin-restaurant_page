@@ -3,6 +3,7 @@ import { renderHome } from "./home.js";
 import { renderMenu } from "./menu.js";
 import { renderAbout } from "./about.js";
 
+// clear all elements within content div
 function clearContent() {
   const content = document.getElementById('content');
   while (content.firstChild) {
@@ -10,6 +11,7 @@ function clearContent() {
   };
 }
 
+// page navigation buttons
 const home = document.getElementById('home');
 const menu = document.getElementById('menu');
 const about = document.getElementById('about');
